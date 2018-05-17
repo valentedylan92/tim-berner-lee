@@ -1,0 +1,139 @@
+body{
+  background-color: #d7dee8;
+  font-family: 'Open Sans','Arial', sans-serif;
+
+}
+.container{
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  padding: 30px 0;
+}
+
+.section__intro{
+  background-color: white;
+  padding: 10px 20px;
+  text-align: justify;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.section__intro__img{
+  border-radius: 100%;
+  margin: auto;
+  display: block;
+  border: 5px solid #cecaca;
+  width: 150px;
+}
+
+.section__intro__title{
+  text-align: center;
+  color: #f95252;
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.section__intro__subtitle{
+  text-align: center;
+  color: #6d6d6d;
+}
+
+.section__intro__text{
+  text-align: justify;
+  font-size: 17px;
+  color: #6d6d6d;
+  line-height: 2;
+}
+
+.highlight{
+  font-weight: 700;
+}
+
+.section__intro__link{
+  display: block;
+  width: 150px;
+  padding: 15px 10px;
+  text-align: center;
+  font-size: 18px;
+  margin: auto;
+  background-color: #f95252;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: background ease 1s;
+}
+
+.section__intro__link:hover{
+  background-color:#c12424;
+
+}
+.section__social{
+  background-color: white;
+  padding: 70px 20px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+.section__social__list{
+  display: flex;
+  flex-direction: row;
+  color: #9b9999;
+  list-style: none;
+  width: 450px;
+  margin: auto;
+  padding: 0;
+}
+
+.section__social__item{
+
+  width: 150px;
+  color: #9b9999;
+  list-style: none;
+  text-align: center;
+}
+
+.section__social__link{
+  display: flex;
+  flex-direction: column;
+  color: #9b9999;
+  text-decoration: none;
+  transition: color ease 1s;
+}
+.section__social__link:hover{
+  color:#707070
+}
+
+.section__social__icon{
+  margin-bottom: 15px;
+}
+
+.section__movies{
+  background-color: white;
+  padding: 20px 30px;
+}
+
+.section__movies__subtitle{
+  text-align: center;
+  color: #6d6d6d;
+}
+
+.movie__container{
+  display: flex;
+  flex-direction: row;
+}
+
+.movie__right{
+  padding-left: 20px;
+}
+
+.movie__title{
+  font-size: 24px;
+  text-align: center;
+  color: #6d6d6d;
+}
+
+.movie__text{
+  text-align: justify;
+  font-size: 17px;
+  color: #6d6d6d;
+  line-height: 2;
+}
