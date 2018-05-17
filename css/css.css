@@ -114,11 +114,13 @@ body{
 .section__movies__subtitle{
   text-align: center;
   color: #6d6d6d;
+    margin-bottom: 40px;
 }
 
 .movie__container{
   display: flex;
   flex-direction: row;
+  margin-bottom: 40px;
 }
 
 .movie__right{
@@ -129,6 +131,7 @@ body{
   font-size: 24px;
   text-align: center;
   color: #6d6d6d;
+  margin: 0;
 }
 
 .movie__text{
@@ -136,4 +139,8 @@ body{
   font-size: 17px;
   color: #6d6d6d;
   line-height: 2;
+}
+
+.movie__image{
+  width: 150px;
 }
